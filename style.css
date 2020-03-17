@@ -1355,7 +1355,7 @@ span i:hover{
        height:191px ;
    }
    .groupsect{
-       margin-bottom: -73px;
+       margin-bottom: -157px;
    }
    .groupsect p{
        font-size: 16px;
@@ -1402,43 +1402,11 @@ span i:hover{
    .teamtext p{
        font-size: 16px;
    }
-   .blogsmallimg{
-       visibility: hidden;
-       width: 0;
-       height: 0;
-       background-image: none;
-   }
    .teamimg{
        width: 100%;
    }
    .teamhum{
        margin-left: 60px;
-   }
-   .blog{
-       width: 100%;
-   }
-   .date{
-       visibility: hidden;
-       margin: 0;
-       padding:0;
-   }
-   .blogimgbig{
-       width: 100%;
-       height: 529px;
-   }
-   .blogimgbig img{
-        width: 380px;
-   }
-   .blogimgbig i{
-       visibility: visible;
-   }
-   .blogimgbig a{
-       padding:10px;
-       border: 1px solid gray;
-       border-radius: 50px;
-       text-decoration: none;
-       color:#2d3745;
-       margin-left: -40px;
    }
    .hipster {
        width: 100%;
@@ -1490,6 +1458,25 @@ span i:hover{
    .header{
         padding-top: 0;
     }
+    .footerinn1{
+        width: 290px;
+        height: 330px;
+    }
+    .footerinn2{
+        width: 290px;
+        height: 330px;
+        margin-top: -80px;
+    }
+    .footerinn3{
+        width: 290px;
+        height: 300px;
+        margin-top: -80px;
+    }
+    .footerinn4{
+        width: 290px;
+        height: 330px;
+        margin-top: -80px;
+    }
 
 }
 @media screen and (max-width: 375px){
@@ -1506,17 +1493,29 @@ span i:hover{
     .thirdimg img{
         width: 100%;
     }
-   .blog{
-       visibility: hidden;
-   }
-   .blog i{
-    visibility: hidden;
-    }
     .header{
         padding-top: 0;
     }
     .specialsdiv{
         width: 300px;
+    }
+    .footerinn1{
+        width: 290px;
+        height: 330px;
+    }
+    .footerinn2{
+        width: 290px;
+        height: 330px;
+    }
+    .footerinn3{
+        width: 290px;
+        height: 300px;
+        margin-top: -80px;
+    }
+    .footerinn4{
+        width: 290px;
+        height: 330px;
+        margin-top: -80px;
     }
 }
 @media screen and (max-width: 320px){
@@ -1525,7 +1524,7 @@ span i:hover{
         height: 150px;
     }
     .groupsect{
-        margin-bottom: -88px;
+        margin-bottom: -178px;
     }
     .specials{
         width: 100%;
@@ -1560,5 +1559,17 @@ span i:hover{
     }
     .header{
         padding-top: 0;
+    }
+    .footerinn1{
+        width: 290px;
+    }
+    .footerinn2{
+        width: 290px;
+    }
+    .footerinn3{
+        width: 290px;
+    }
+    .footerinn4{
+        width: 290px;
     }
 }
