@@ -183,7 +183,7 @@ span i:hover{
     position: relative;
     font-size: 16px;
     line-height: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding-bottom: 30px;
     margin-top: 30px;
     font-family: 'Lato';
@@ -1329,7 +1329,7 @@ span i:hover{
        height:191px ;
    }
    .groupsect{
-       margin-bottom: -169px;
+       margin-bottom: -73px;
    }
    .groupsect p{
        font-size: 16px;
@@ -1357,7 +1357,7 @@ span i:hover{
    }
    .mobile{
         width: 150px;
-        height: 263;
+        height: 263px;
    }
    .circle{
         width: 233px;
