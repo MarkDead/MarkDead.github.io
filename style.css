@@ -1199,6 +1199,9 @@ span i:hover{
     }
 }
 @media screen and (max-width: 1024px){
+    .blog{
+        display: none;
+    }
     .header img{
         margin-left: 150px;
     }
