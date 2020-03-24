@@ -740,16 +740,38 @@ span i:hover{
     justify-content: center;
 }
 .teleimg i{
-    color: white;
+    color:#49a3ec ;
     font-size: 24px;
-    border: 1px solid lightblue ;
+    border: 1px solid #49a3ec ;
     border-radius: 100%;
-    background:linear-gradient(to bottom,rgba(163,96,255,.6) 0%,rgba(0,132,255,.6) 100%)  ;
-    z-index: 1;
-    padding:1px
+    background:white;
+    z-index: 4;
+    padding:10px
 }
-.telemob{
+.teleimg i:hover{
+    color: white;
+    background:#49a3ec ;
+    transition: 0.5s;
+}
+.telemob1{
     float: right;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    height: 550px;
+}
+.telemob2{
+    float: left;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    height: 550px;
 }
 .telecircle{
     display: flex;
@@ -765,6 +787,66 @@ span i:hover{
     z-index: 1;
     position: relative;
     margin-top: -780px;
+}
+.telemob1 h2{
+    color: #49a3ec;
+}
+.telemob1 h2:hover{
+    color: #2d3745;
+    transition: 0.5s;
+}
+.telemob1 a{
+    text-decoration: none;
+}
+.telemob2 h2{
+    color: #49a3ec;
+}
+.telemob2 h2:hover{
+    color: #2d3745;
+    transition: 0.5s;
+}
+.telemob2 a{
+    text-decoration: none;
+}
+.firsttele1{
+    display: flex;
+    margin-right: -300px;
+   
+}
+.firsttele2{
+    display: flex;
+    margin-right: -50px;
+
+}
+.firsttele3{
+    display: flex;
+    margin-right: -35px;
+    
+}
+.firsttele4{
+    display: flex;
+    margin-right: -320px;
+    
+}
+.secondtele0{
+    visibility: hidden;
+    
+}
+.secondtele1{
+    display: flex;
+    margin-left: -300px;
+}
+.secondtele2{
+    display: flex;
+    margin-left: -40px;
+}
+.secondtele3{
+    display: flex;
+    margin-left: -35px;
+}
+.secondtele4{
+    display: flex;
+    margin-left: -270px;
 }
 .teamtext{
     margin-top: 120px;
@@ -1242,6 +1324,12 @@ span i:hover{
     }
     .button p{
         width: 250px;
+    }
+    .telemob1{
+        display: none;
+    }
+    .telemob2{
+        display: none;
     }
 }
 @media screen and (max-width: 768px){
